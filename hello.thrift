@@ -1,4 +1,4 @@
-namespace go Hello
+namespace go hello
 
 struct HelloRequest {
     1: string message
