@@ -13,5 +13,5 @@ struct HelloResponse {
 
 
 service HelloService {
-    HelloResponse hello(1: HelloRequest request)
+    HelloResponse hello(1: HelloRequest req)
 }
