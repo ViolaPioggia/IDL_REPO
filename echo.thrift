@@ -6,6 +6,7 @@ struct Request {
 
 struct Response {
     1: string message
+    2: string info
 }
 
 
