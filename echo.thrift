@@ -1,6 +1,6 @@
 namespace go echo
 
-struct Request {
+struct Requestt {
     1: string message
 }
 
@@ -11,5 +11,5 @@ struct Response {
 
 
 service EchoService {
-    Response echo(1: Request req)
+    Response echo(1: Requestt req)
 }
